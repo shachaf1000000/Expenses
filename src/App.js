@@ -37,7 +37,7 @@ function App() {
   
   }
   return (
-    <div >
+    <div className='app-wrapper'>
       <h1> Expenses app</h1>
       <NewExpense onAddExpense={addExpenseHandler}/>
       <Expenses expenses={currentExpenses}></Expenses>
